@@ -1,0 +1,24 @@
+{
+  "name": "cssgen",
+  "version": "1.0.0",
+  "description": "first ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k4tz/cssgen.git"
+  },
+  "keywords": [
+    "cssgen",
+    "mern"
+  ],
+  "author": "k4tz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k4tz/cssgen/issues"
+  },
+  "homepage": "https://github.com/k4tz/cssgen#readme"
+}
