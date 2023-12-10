@@ -1,7 +1,9 @@
-const http = require('http');
+const express = require('express');
 
-http.createServer((req,res) => {
-    res.writeHead(200,{"Content-type":"text/html"});
-    res.write("hey returning response");
-    res.end();
-}).listen(8000);
+const app = express();
+
+app.get('/',(req,res) => { res.send('TEST API') });
+
+const port = process.env.PORT || 8000;
+
+app.listen(port,() => { console.log(`SERVER RUNNING ON ${port}`) });
